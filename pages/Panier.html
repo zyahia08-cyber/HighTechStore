@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header>
+        <h1><span class="logo">HTS</span> HighTechStore</h1>
+        <nav>
+            <a class="btn" href="../index.html">Accueil</a>
+            <a class="btn" href="pc.html">PC</a>
+            <a class="btn" href="inscription.html">Inscription</a>
+            <a class="btn" href="infos.html">Infos</a>
+            <a class="btn btn-active" href="Panier.html">Panier</a>
+        </nav>
+    </header>
+     <div class="page">
+    <main>
+        <div class="card">
+            <h2>Votre panier</h2>
+            <div class="tableau">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Article</th>
+                            <th>Photo</th>
+                            <th>Qté</th>
+                            <th>Prix</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>REF-PC001</strong><br>Lenovo ThinkPad E16</td>
+                            <td><img src="../images/lenovo.avif" alt="lenovo" width=100></td>
+                            <td><input class="qte" type="number" name="qte1" value="1" min="1"></td>
+                            <td class="prix">2 450 TND</td>
+                        </tr>
+                        <tr>
+                            <td><strong>REF-ACC012</strong><br>Souris sans fil</td>
+                            <td><img src="../images/souris.jpg.jpeg" alt="souris" width=100></td>
+                            <td><input class="qte" type="number" name="qte2" value="2" min="1"></td>
+                            <td class="prix">80 TND</td>
+                        </tr>
+                        <tr>
+                            <td><strong>REF-SSD003</strong><br>SSD NVMe 1 To</td>
+                            <td><img src="../images/SSD NVMe 1 To.jpg.jpeg" alt=""></td>
+                            <td><input class="qte" type="number" name="qte3" value="1" min="1"></td>
+                            <td class="prix">290 TND</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <aside class="card recap">
+            <h2>Récapitulatif</h2>
+            <p class="ligne"><span>Sous-total</span><span>2 820 TND</span></p>
+            <p class="ligne"><span>Livraison</span><span>Gratuite</span></p>
+            <p class="ligne total"><span>Total</span><span class="prix">2 820 TND</span></p>
+            <button type="button">Valider la commande</button>
+    </aside>
+    </div>
+    <footer>
+        <p>&copy; 2026 HighTechStore - Tous droits réservés | Auteurs : Smeti Elaa et Yahia Zeineb</p>
+    </footer>
+</body>
+</html>

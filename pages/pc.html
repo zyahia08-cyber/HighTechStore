@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>PC</title>
+</head>
+<body>
+    <header>
+        <h1><span class="logo">HTS</span> HighTechStore</h1>
+        <nav>
+            <a class="btn" href="../index.html">Accueil</a>
+            <a class="btn btn-active" href="pc.html">PC</a>
+            <a class="btn" href="inscription.html">Inscription</a>
+            <a class="btn" href="infos.html">Infos</a>
+            <a class="btn" href="Panier.html">Panier</a>
+        </nav>
+    </header>
+    <main>
+        <div class="card">
+            <h2>Catalogue des Ordinateurs</h2>
+                <form action="#" class="mot">
+                    <div class="group">
+                        <label for="clé">Recherche par mot-clé :</label>
+                        <input type="text" id="clé" name="clé" placeholder="Ex: Gaming, Intel, Lenovo...">
+                    </div>
+                    <div class="group">
+                        <label for="tri">Trier par prix :</label>
+                        <select name="tri" id="tri">
+                                                        <option value="croi" selected>Prix croissant</option>
+                            <option value="décroi">Prix décroissant</option>
+                        </select>
+                    </div>
+                    <div class="group">
+                        <button type="submit">Filtrer</button>
+                    </div>
+                    
+                </form>
+                <div class="tableau">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Référence</th>
+                                <th>Photo</th>
+                                <th>Description</th>
+                                <th>Prix</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>REF-PC001</strong></td>
+                                <td><img src="../images/lenovo.avif" alt="lenovo" width="100"></td>
+                                <td>
+                                    <ul>
+                                        <li> Modèle : Lenovo ThinkPad E16</li>
+                                        <li>Processeur : Intel Core Ultra 7</li>
+                                        <li> Mémoire RAM : 16 Go DDR5</li>
+                                        <li> Stockage : 512 Go SSD NVMe</li>
+                                        <li> Écran : 16 pouces FHD+</li>
+                                    </ul>
+                                </td>
+                                <td class="prix">2 450 TND</td>
+                            </tr>
+                            <tr>
+                                <td><strong>REF-PC002</strong></td>
+                                <td><img src="../images/ASUS ROG Strix.png" alt="asus" width="100"></td>
+                                <td>
+                                    <ul>
+                                        <li> Modèle : ASUS ROG Strix</li>
+                                        <li>Processeur : AMD Ryzen 7 7735HS</li>
+                                        <li> Carte Graphique : NVIDIA RTX 4060 8Go</li>
+                                        <li> Mémoire RAM : 32 Go DDR5</li>
+                                        <li>Stockage : 1 To SSD NVMe</li>
+                                    </ul>
+                                </td>
+                                <td class="prix">3 890 TND</td>
+                            </tr>
+                            <tr>
+                                <td><strong>REF-PC003</strong></td>
+                                <td><img src="../images/HP ProDesk 400 G9.jpg.jpeg" alt="hp" width="100"></td>
+                                <td>
+                                    <ul>
+                                        <li> Modèle : HP ProDesk 400 G9</li>
+                                        <li>Processeur : Intel Core i5-13500</li>
+                                        <li>Mémoire RAM : 8 Go DDR4</li>
+                                        <li>Stockage : 256 Go SSD</li>
+                                        <li> Inclus : Clavier + Souris filaires</li>
+                                    </ul>
+                                </td>
+                                <td class="prix">1 620 TND</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 HighTechStore - Tous droits réservés | Auteurs : Smeti Elaa et Yahia Zeineb</p>
+    </footer>
+</body>
+</html>

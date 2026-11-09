@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="../style/style.css" />
+</head>
+<body>
+    <header>
+        <h1><span class="logo">HTS</span> HighTechStore</h1>
+        <nav>
+            <a class="btn" href="../index.html">Accueil</a>
+            <a class="btn" href="pc.html">PC</a>
+            <a class="btn btn-active" href="inscription.html">Inscription</a>
+            <a class="btn" href="infos.html">Infos</a>
+            <a class="btn" href="Panier.html">Panier</a>
+        </nav>
+    </header>
+    <main>
+        <div class="card">
+        <h2>Formulaire d'Inscription</h2>
+        <form action="#" method="post">
+            <div class="formulaire">
+                <div>
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom" required />
+                </div>
+                <div>
+                    <label for="Prénom">Prénom:</label>
+                    <input type="text" id="Prénom" name="Prénom" required />
+                </div>
+                <div>
+                    <label for="date">Date de naissance :</label>
+                    <input type="date" id="date" name="date" required />
+                </div>
+                <div>
+                    <label for="sexe">Sexe:</label>
+                    <div class="grp-radio">
+                        <input type="radio" id="Masculin" name="sexe" value="Masculin" required />
+                        <label for="Masculin">Masculin</label>
+                        <input type="radio" id="Féminin" name="sexe" value="Féminin" required />
+                        <label for="Féminin">Féminin</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="adresse">Adresse :</label>
+                    <input type="text" id="adresse" name="adresse" required />
+                </div>
+                <div>
+                    <label for="code">Code postal:</label>
+                    <input type="text" id="code" name="code" required />
+                </div>
+                <div>
+                    <label for="ville">Ville:</label>
+                    <input type="text" id="ville" name="ville" required />
+                </div>
+                <div>
+                    <label for="Gouvernorat">Gouvernorat :</label>
+                    <select id="Gouvernorat" name="Gouvernorat" required>
+                        <option value="">--Choisir un gouvernorat--</option>
+                        <option value="Gouvernorat de Manouba">Gouvernorat de Manouba</option>
+                        <option value="Gouvernorat de Tunis">Gouvernorat de Tunis</option>
+                        <option value="Gouvernorat de Sousse">Gouvernorat de Sousse</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="fonction">Fonction:</label>
+                    <input type="text" id="fonction" name="fonction" />
+                </div>
+                <div>
+                    <label for="mail">Adresse E-mail:</label>
+                    <input type="email" id="mail" name="mail" placeholder="nom@exemple.com" required />
+                </div>
+                <div>
+                    <label for="tel">Numéro de téléphone :</label>
+                    <input type="text" id="tel" name="tel" required />
+                </div>
+            </div>
+            <label for="remarque">Remarques:</label>
+            <textarea id="remarque" name="remarque" placeholder="Vos remarques ou précisions ..." rows="4"></textarea>
+            <button type="submit">Valider l'inscription</button>
+        </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 HighTechStore - Tous droits réservés | Auteurs : Smeti Elaa et Yahia Zeineb</p>
+    </footer>
+</body>
+</html>
